@@ -1,0 +1,18 @@
+Source: deepin-installer-timezones
+Section: utils
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-Depends:
+    cmake (>=3.1),
+    debhelper (>=9),
+    gettext
+Standards-Version: 3.9.8
+Homepage: http://www.deepin.org
+
+Package: deepin-installer-timezones
+Architecture: all
+Depends:
+    ${shlibs:Depends},
+    ${misc:Depends}
+Description: Language package for timezone names
+ Installer language package for timezone names

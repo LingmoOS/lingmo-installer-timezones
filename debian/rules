@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+include /usr/share/dpkg/default.mk
+
+%:
+	dh $@ --buildsystem=cmake
+
+override_dh_auto_test:
+	# The upstream tests are related to the sources. Just skip it.
+
+override_dh_auto_install:
+	dh_auto_install
+
+override_dh_auto_clean:
+	dh_auto_clean

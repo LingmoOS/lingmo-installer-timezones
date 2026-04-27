@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.com
+minimum_perc = 80
+mode = developer
+
+[o:linuxdeepin:p:deepin-installer-reborn:r:deepin-installer-timezones]
+file_filter = timezones/<lang>/deepin-installer-timezones.po
+source_file = timezones/system-config-date-timezones.pot
+source_lang = en
+type = PO
