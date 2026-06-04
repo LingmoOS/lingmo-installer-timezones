@@ -1,13 +1,13 @@
-Source: deepin-installer-timezones
+Source: lingmo-installer-timezones
 Section: utils
 Priority: optional
-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends:
     cmake (>=3.1),
     debhelper (>=9),
     gettext
-Standards-Version: 3.9.8
-Homepage: http://www.deepin.org
+Standards-Version: 4.5.0
+Homepage: http://lingmo.org
 
 Package: deepin-installer-timezones
 Architecture: all

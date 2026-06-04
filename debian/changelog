@@ -1,12 +1,5 @@
-deepin-installer-timezones (6.0.4+dde) unstable; urgency=medium
+lingmo-installer-timezones (2:6.0.0.lingmo.1) unstable; urgency=medium
 
-  * Non-maintainer upload.
-  * 
+  * Rebuild for Lingmo OS.
 
- -- Guo Nafu <guonafu@uniontech.com>  Thu, 05 Jun 2025 11:23:00 +0800
-
-deepin-installer-timezones (6.0.0+dde) unstable; urgency=medium
-
-  * new deepin installer timezones data
-
- -- Zhang Dongdong <zhangdongdong@uniontech.com>  Sat, 10 Jan 2022 12:12:13 +0800
+ -- Lingmo OS Team <team@lingmo.org>  Fri, 05 Jun 2026 04:01:00 +0800
